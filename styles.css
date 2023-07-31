@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background-image: url(./photo_2023-07-30_22-58-13.jpg);
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  background: #1d1d1d;
+  margin: 0px;
+  box-shadow: 0 0 2px black;
+  transition: 2s ease-out;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
